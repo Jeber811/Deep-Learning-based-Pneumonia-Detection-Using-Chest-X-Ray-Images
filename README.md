@@ -4,6 +4,8 @@ This project implements a deep learning model for pneumonia detection using ches
 
 The system is trained using the Chest X-Ray Images (Pneumonia) dataset [3] and is designed to classify chest X-ray images into pneumonia or normal categories.
 
+The code for this project was ran with Google Colab under a L4 GPU for efficient computation and results.
+
 # Model Architecture
 
 The model uses a ResNet-18 backbone with modifications aimed at improving training efficiency and classification performance. These modifications are based on optimization techniques presented in the Bag of Tricks paper, including improvements to training procedures and regularization methods commonly used in modern convolutional neural network pipelines.
@@ -20,6 +22,8 @@ The dataset contains labeled chest X-ray images categorized as:
 Normal
 
 Pneumonia
+
+To replicate the results of this code, the dataset must be downloaded to your local machine, saved according to the below directory structure.
 
 # Directory Structure
 
